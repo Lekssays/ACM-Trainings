@@ -51,6 +51,5 @@ int main(void){
 		backtrack(0); 
 		printf("\n");		
 	}
-
 	return 0;	
 }
