@@ -1,4 +1,4 @@
-/* Made with love 
+/* Made with love by Najwa Laabid, Abdelghafour Mourchid, and Ahmed Lekssays
 ACPC Edition : 2009
 Problem : [B] Tiles of Tetris, NOT!
 */
