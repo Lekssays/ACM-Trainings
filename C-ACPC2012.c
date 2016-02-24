@@ -1,4 +1,7 @@
-/* Made with love */
+/* Made with love
+ACPC Edition: 2012
+Problem: C - Encrypted Password
+*/
 #include <stdio.h>
 #include <string.h>
 #define MAX 100002
