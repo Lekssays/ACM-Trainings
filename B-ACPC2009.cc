@@ -15,7 +15,7 @@ long long gcd(long long a , long long  b ){
 
 int main (void){
 	long long a, b;
-	
+
 	do {
 		long long ans = 0;
 		
