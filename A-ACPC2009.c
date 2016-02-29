@@ -22,7 +22,7 @@ void push(char a){
 }
 
 char pop(void){
-	int a;
+	char a;
 	if (s.top == -1)
 		return '-';
 	else {
