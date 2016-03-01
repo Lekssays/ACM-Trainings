@@ -44,19 +44,19 @@ int main(void){
 		for(i = 0; i < len ; i++){
 			if ( str[i] == '}' && s.top == -1){
 				push(str[i]);
-				total++; // add to operating -> we converted } to { because hte stack is empty
+				total++; // add to operations counter -> we converted } to { because hte stack is empty
 			} else if( str[i] == '}' && s.top != -1) pop();
 			else push(str[i]);
 		}
 
-		while( s.top != -1){ // add the remaining { in the stack -> They ll always be even, so we devide by 2 to match every two pairs
+		while( s.top != -1){ // add the remaining { in the stack
 			pop();
 			cntStack++;
 		}
 		
 		if(str[0] == '-') break;
 		else { 
-			printf("%d. %d\n",k, total + ( cntStack / 2));
+			printf("%d. %d\n",k, total + ( cntStack / 2)); // Add the remaining { to the total :) we ll need cntStack / 2 operation to match al the pairs
 			k++;
 		}
 	}		
