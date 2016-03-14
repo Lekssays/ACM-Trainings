@@ -13,10 +13,10 @@ using namespace std;
 int main (void){
     int T, N;
 
-    cin << T;
+    cin >> T;
 
     while (T--){
-        cin << N;
+        cin >> N;
         int dis[N][2], arr[N];
         for(int i = 0; i < N; i++)
             scanf("%d",arr[i]);
