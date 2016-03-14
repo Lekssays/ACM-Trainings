@@ -19,7 +19,7 @@ int main (void){
         cin >> N;
         int dis[N][2], arr[N];
         for(int i = 0; i < N; i++)
-            scanf("%d",arr[i]);
+            scanf("%d",&arr[i]);
 
 		memset(dis, 0, sizeof dis);
 
