@@ -1,4 +1,4 @@
-/* Made with LOVE by Najwa Laabid, Abdelghafoue Mourchid, and Ahmed Lekssays
+/* Made with LOVE by Najwa Laabid, Abdelghafor Mourchid, and Ahmed Lekssays
 ACPC 2011
 Problem C. Circleland
 */
