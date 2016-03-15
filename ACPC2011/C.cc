@@ -26,7 +26,7 @@ int main (void){
 		int sum = 0;
 		for(int i = 0; i < N - 1; i++){
 			sum += arr[i];
-			dis[i + 1][0] = sum;  // equals sum not arr[i]
+			dis[i + 1][0] = sum;  
 		}
 
 		sum = 0;
