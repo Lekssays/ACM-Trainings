@@ -13,12 +13,13 @@ using namespace std;
 const int MAX = 1003;
 
 int main(void){
-	int T, N;
+	int T, N, found;
 	char song[MAX][MAX], key[MAX], lyrics[MAX][MAX];
 
 	cin >> T;
 
 	while(T--){
+		found = 0;
 		cin >> N;
 
 		for (int i = 0; i < N; i++){
@@ -28,11 +29,16 @@ int main(void){
 
 		scanf("%s",key);
 
-		int i = 0;
-		while( strstr(lyrics[i],key) == 0 ){
-			i++;
+		for(int i = 0; i < N; i++){
+			if(strstr(lyrics[i],key) != 0){
+				found++;
+				id = i;
+			}
 		}
-		printf("%s\n", song[i]);
+		if(found == 1)
+			printf("%s\n", song[id]);
+		else
+			printf("Error\n");
 	
 	}
 	
