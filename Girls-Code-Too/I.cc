@@ -13,7 +13,7 @@ using namespace std;
 const int MAX = 100004;
 
 int main(void){
-	int T, epi[MAX], n, sum, sol;
+	long long T, epi[MAX], n, sum, sol;
 
 	cin >> T;
 
