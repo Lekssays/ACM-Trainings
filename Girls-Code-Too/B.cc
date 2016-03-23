@@ -11,7 +11,7 @@ Complexity : O(N^2)
 
 using namespace std;
 
-const int MAX = 10000, mod = 1000000007;
+const int MAX = 1000, mod = 1000000007;
 
 long long xy[MAX][3], edges[MAX] = {0}, vert[MAX];
 
