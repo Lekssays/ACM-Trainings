@@ -30,7 +30,7 @@ int main(void){
 		scanf("%s",key);
 
 		for(int i = 0; i < N; i++){
-			if(strstr(lyrics[i],key) != 0){
+			if(strstr(lyrics[i],key) != NULL){
 				found++;
 				id = i;
 			}
